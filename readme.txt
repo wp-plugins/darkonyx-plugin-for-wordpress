@@ -1,8 +1,8 @@
-=== Plugin Name ===
+﻿=== Plugin Name ===
 Contributors: bastek89, nebuchadrezzar
 Tags: video, flash, html5, iphone, ipod, ipad, rtmp, pseudo-streaming, h264, ogv, webm, DarkOnyx, Web-Anatomy
 Requires at least: 2.8.6
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: 1.0
 
 DarkOnyx Web Video Plugin for Wordpress
@@ -39,6 +39,13 @@ DarkOnyx Video Player for Wordpress plugin is an unique, but yet very powerful b
 
 Video Tutorials: http://darkonyx.web-anatomy.com/en/Videos
 
+== Screenshots ==
+
+1. DarkOnyx Flash / HTML5 Player
+2. DarkOnyx Video Database (accessed from WP level)
+3. WP Media Library integration
+4. Multi-source Videos & Compatibility Advisor
+
 == Changelog ==
 
 = 1.0 =
@@ -63,7 +70,7 @@ The installation process is almost identical to how you set up Wordpress. Check 
 
 = Is DarkOnyx free? =
 
-Yes it is � just like the plugin. You will have to register an account on web-anatomy.com to download the player.
+Yes it is – just like the plugin. You will have to register an account on web-anatomy.com to download the player.
 
 = Can I display my own ads in Free Edition too =
 
