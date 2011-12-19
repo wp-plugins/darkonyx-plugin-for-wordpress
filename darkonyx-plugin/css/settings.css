@@ -1,0 +1,7 @@
+#steps{width:974px;height:60px;margin:20px 0 20px 50px;}
+#steps div{float:left;}
+#steps a{text-decoration:none;}
+#steps .step{width:202px;height:66px;background:url('../images/setup_step.jpg');}
+#steps .step .number{width:30px;font-size:18px;text-align:center;font-weight:bold;color:white;padding:25px 0 0 13px;}
+#steps .step .text{width:140px;height:66px;font-size:18px;color:white;padding:18px 0 0 8px;}
+#steps .separator{width:42px;height:10px;background:url('../images/step_separator.jpg');margin:30px 5px 0 5px;}
