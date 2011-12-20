@@ -12,10 +12,10 @@ DarkOnyx Web Video Plugin for Wordpress
 DarkOnyx Video Player for Wordpress plugin is an unique, but yet very powerful bridge that connects both solutions into a single, powerful media platform. Manager your videos, channels, playlists, settings and ad-campaigns with just a few clicks. 
 
 = DarkOnyx Key Features =
-- Two identical video players based both on Adobe Flash & HTML5 technology,
+- Both flash video player and html5 video player in a single solution,
 - Full support for all mobile devices, including iPhone, iPad, and Android based smartphones and tablets,
 - Customizable player interface with over 50 parameters,
-- External Multi-Channel Playlist based on HTML/CSS3
+- External Multi-Channel Playlist based on HTML/CSS3,
 - Support for multiple video delivery methods including: Pseudo-Streaming, RTMP, YouTube & Dailymotion,
 - Support for multiple ad-types including pre-roll, post-roll, text/image overlays and pop-ups,
 - Advance sharing features with direct Facebook & Twitter integration,
@@ -28,6 +28,9 @@ DarkOnyx Video Player for Wordpress plugin is an unique, but yet very powerful b
 - Easily embed your videos from either Wordpress Media Library, or DarkOnyx Inbuilt Database,
 - Select templates and ad-campaign for your videos/players,
 - Add/Upload video content from multiple sources including YouTube, Dailymotion, External URLs or your Hard-Drive,
+
+
+More about DarkOnyx web video player: http://darkonyx.web-anatomy.com
 
 == Installation ==
 
@@ -55,24 +58,44 @@ Video Tutorials: http://darkonyx.web-anatomy.com/en/Videos
 
 = What is DarkOnyx? =
 
-DarkOnyx is a Flash/HTML5 Video Player for Web, but also a powerful Video Platform similar in functionality to Brightcove or Ooyala.
+DarkOnyx is not just a Flash/HTML5 Video Player for Web, but also a powerful Video Platform similar in functionality to Brightcove or Ooyala.
 
 = What differs DarkOnyx from other video players like JWPlayer or FlowPlayer =
 
 DarkOnyx is an intelligent HTML5/Flash hybrid player, that can automatically switch between its two modes, depending on available sources, and end-user's system (instead of just a simple fallback mechanism). It also comes with a powerful, dedicated CMS.
 
 = If the player already has got its own CMS, why do I need this plugin? =
-Plugin itself is a bridge between two platforms (DarkOnyx & Wordpress). Thanks to it, you will be able to setup most of the elements from Wordpress level without a need to operate between two scripts all the time. 
+Plugin itself is a bridge between two platforms (DarkOnyx & Wordpress). Thanks to that, you will be able to setup most of the settings from Wordpress level without a need to operate between two scripts all the time. 
 
 = How to install DarkOnyx? =
 
-The installation process is almost identical to how you set up Wordpress. Check our site to learn more about it. Video tutorials both for player and plugin installation are also available!
+The installation process is almost identical to how you set up Wordpress. Check our site to learn more about it. Video tutorials both for player and plugin installation are also available.
 
 = Is DarkOnyx free? =
 
 Yes it is – just like the plugin. You will have to register an account on web-anatomy.com to download the player.
 
-= Can I display my own ads in Free Edition too =
+= Do you offer a free tech support? =
+
+Make sure to check forum on our website, we will be glad to help you!
+
+= I would like to have a certain feature in DarkOnyx plugin... =
+
+Feel free to contact us and share with your ideas!
+
+= Can I display my own ads in Free Edition too? =
 
 Sure you can!
+
+= What video/audio codecs does DarkOnyx support =
+
+- Flash - H.264, On2VP6, H.263+ (Sorenson Spark), AAC, MP3
+- HTML5 - H.264, Theora, VP8, MP3
+
+= Is live-streaming possible with that player? =
+
+Yes it is!
+
+
+More FAQ: http://darkonyx.web-anatomy.com/en/Faq
 
