@@ -5,3 +5,20 @@
 #steps .step .number{width:30px;font-size:18px;text-align:center;font-weight:bold;color:white;padding:25px 0 0 13px;}
 #steps .step .text{width:140px;height:66px;font-size:18px;color:white;padding:18px 0 0 8px;}
 #steps .separator{width:42px;height:10px;background:url('../images/step_separator.jpg');margin:30px 5px 0 5px;}
+
+
+.subMenu {display:block;float:left;margin-left:10px;width:844px;background:#dfdfdf;-webkit-border-radius: 0px 0px 12px 12px;-moz-border-radius: 0px 0px 12px 12px;border-radius: 0px 0px 12px 12px}
+.subContext {font-family: Verdana;font-size:11px;margin:4px 60px 4px 60px;display:block;color:#333333}
+.subContext a {text-decoration:none;color:#ff8400;font-weight:bold}
+.subContext a:hover {text-decoration:underline;color:#ff0066}
+
+.guideContainer {float:left;width:759px;color:white}
+.imgHolder {float:left;width:105px;padding-top:13px;padding-bottom:7px}
+.guideDesc {font-family: Verdana;font-size:11px;margin:8px 10px 13px 0px;display:block}
+.guideDesc a {text-decoration:none;color:#ffb400;font-weight:bold}
+.guideDesc a:hover {text-decoration:underline;color:#ff0066}
+
+.guideTitle {font-family: Geneva;font-size:24px;margin:13px 10px 0 0px;display:block;color:#e0e0e0}
+
+.roundedBox {float:left;width:864px;background:#8a8a8a;-moz-border-radius: 12px; border-radius: 12px;}
+.boxInfo {float:left;display:block;width:864px;color:white;margin:5px 5px 5px 5px}

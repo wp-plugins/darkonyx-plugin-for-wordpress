@@ -66,63 +66,122 @@ echo '<link rel="stylesheet" href="'. WP_PLUGIN_URL . '/' . str_replace("admin",
             </div>
           </div>
         </form>
-     <div id="poststuff">
-              <div id="post-body">
-                <div id="post-body-content">
-                  <div class="stuffbox">
-                    <h3 class="hndle"><span>Setup instruction</span></h3>
-					<div id="steps">
-					<div>
-						<a href="http://darkonyx.web-anatomy.com/en/Download" target="_blank">
-							<div class="step">
-								<div class="number">1</div>
-								<div class="text">Download Player<br><span style="color:#ffcf91;font-size:12px;">From here!</span></div>
-							</div>
-						</a>
-							<div class="separator"></div>
-					</div>
-					<div>
-						<a href="http://darkonyx.web-anatomy.com/en/Videos?vid=12" target="_blank">
-							<div class="step">
-								<div class="number">2</div>
-								<div class="text">Install Player<br><span style="color:#ffcf91;font-size:12px;">Watch Video Tutorial!</span></div>
-							</div>
-						</a>
-							<div class="separator"></div>
-					</div>
-					<div>
-					<a href="http://darkonyx.web-anatomy.com/en/Videos?vid=16" target="_blank">
-						<div class="step">
-							<div class="number">3</div>
-							<div class="text">Configure Plugin<br><span style="color:#ffcf91;font-size:12px;">Watch Video Tutorial!</span></div>
+		
+		<div id="poststuff">
+			<div id="post-body">
+				<div id="post-body-content">
+					<div class="stuffbox">
+						<h3 class="hndle"><span>Dependency Diagram (What is what...)</span></h3>
+						<div class="inside" >
+							<?php echo '<img src="'.WP_PLUGIN_URL.'/'.str_replace("admin","",plugin_basename(dirname(__FILE__))).'/diagram.png" width="871" height="434" />'; ?>
 						</div>
-					</a>
-						<div class="separator"></div>
 					</div>
-					<a href="http://darkonyx.web-anatomy.com/en/Videos?vid=17" target="_blank">
-						<div class="step">
-							<div class="number">4</div>
-							<div class="text">How To Use?<br><span style="color:#ffcf91;font-size:12px;">Watch Video Tutorial!</span></div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="poststuff">
+			<div id="post-body">
+				<div id="post-body-content">
+					<div class="stuffbox">
+						<h3 class="hndle"><span>Installation Guide</span></h3>
+						<div class="inside">
+							<!-- BOX1 -->
+							<div style="boxInfo">
+								<div class="roundedBox">
+									<div class="imgHolder"><?php echo '<img src="'.WP_PLUGIN_URL.'/'.str_replace("admin","",plugin_basename(dirname(__FILE__))).'/darkonyx_logo.png" width="105" height="74" />'; ?></div>
+									<div class="guideContainer">
+										<span class="guideTitle">1.Download DarkOnyx Player</span>
+										<span class="guideDesc">
+											<a href="http://web-anatomy.com/en/Register" target="_blank">Register</a> an account on web-anatomy.com and grab free DarkOnyx Player from 
+											<a href="http://darkonyx.web-anatomy.com/en/Download" target="_blank">Download</a> page. Once you're ready, you will be able to download
+											the player from <a href="http://web-anatomy.com/en/my_products" target="_blank">My Products - Download</a> page. Don't forget to register 
+											domain for your player in the input box next to the download button (same as wordpress)
+										</span>
+									</div>
+								</div>
+								<div class="subMenu">
+									<span class="subContext">
+										Watch <a href="http://darkonyx.web-anatomy.com/en/Videos?vid=12" target="_blank">Video Tutorial</a> on how to download  and install the player or check this 
+										<a href="http://web-anatomy.com/docs/darkonyx/darkonyx_guide_1_installation.pdf" target="_blank">PDF Guide!</a>
+									</span>
+								</div>
+							</div>
+							<div style="clear:both"></div><br/>
+							<!-- BOX2 -->
+							<div style="boxInfo">
+								<div class="roundedBox">
+									<div class="imgHolder"><?php echo '<img src="'.WP_PLUGIN_URL.'/'.str_replace("admin","",plugin_basename(dirname(__FILE__))).'/darkonyx_logo.png" width="105" height="74" />'; ?></div>
+									<div class="guideContainer">
+										<span class="guideTitle">2.Install DarkOnyx Player</span>
+										<span class="guideDesc">
+											Create new folder (e.g. darkonyx) on your ftp/domain and upload DarkOnyx files there. Then navigate to that directory with your
+											browser. Player will create its database. The hole process looks very similar to how you install your Wordpress.
+										</span>
+									</div>
+								</div>
+								<div class="subMenu">
+									<span class="subContext">
+										Watch <a href="http://darkonyx.web-anatomy.com/en/Videos?vid=12" target="_blank">Video Tutorial</a> on how to download  and install the player or check this 
+										<a href="http://web-anatomy.com/docs/darkonyx/darkonyx_guide_1_installation.pdf" target="_blank">PDF Guide!</a>
+									</span>
+								</div>
+							</div>
+							
+							<div style="clear:both"></div><br/>
+							<!-- BOX3 -->
+							<div style="boxInfo">
+								<div class="roundedBox">
+									<div class="imgHolder"><?php echo '<img src="'.WP_PLUGIN_URL.'/'.str_replace("admin","",plugin_basename(dirname(__FILE__))).'/wp_logo.png" width="105" height="74" />'; ?></div>
+									<div class="guideContainer">
+										<span class="guideTitle">3. Configure DarkOnyx Plugin for Wordpress</span>
+										<span class="guideDesc">
+											Grab DarkOnyx Player Root Directory Path from DarkOnyx CMS (you will find it in settings tab) and then paste it to the input 
+											above on this page. From now your Wordpress will be connected to your DarkOnyx Player
+										</span>
+									</div>
+								</div>
+								<div class="subMenu">
+									<span class="subContext">
+										Watch <a href="http://darkonyx.web-anatomy.com/en/Videos?vid=16" target="_blank">Video Tutorial</a> on how to configure DarkOnyx Plugin for Wordpress
+									</span>
+								</div>
+							</div>
+							
+							<div style="clear:both"></div><br/>
+							<!-- BOX4 -->
+							<div style="boxInfo">
+								<div class="roundedBox">
+									<div class="imgHolder"><?php echo '<img src="'.WP_PLUGIN_URL.'/'.str_replace("admin","",plugin_basename(dirname(__FILE__))).'/plugin_logo.png" width="105" height="74" />'; ?></div>
+									<div class="guideContainer">
+										<span class="guideTitle">4. Start deploying videos to your website</span>
+										<span class="guideDesc">
+											Depending on your preferences you can either use Wordpress Media Library for managing your videos or DarkOnyx Video Database
+											thanks to DarkOnyx Plugin
+										</span>
+									</div>
+								</div>
+								<div class="subMenu">
+									<span class="subContext">
+										Watch <a href="http://darkonyx.web-anatomy.com/en/Videos?vid=17" target="_blank">Video Tutorial</a> on how to manage video content with DarkOnyx Plugin for Wordpress
+									</span>
+								</div>
+							</div>
+							
+							<div style="clear:both"></div>
 						</div>
-					</a>
+					
 					</div>
-                    <div class="inside" style="margin: 15px;">
-					 <p>In short:</p>
-					 <p>
-					 1. Download and install DarkOnyx Web Video Player on your web-server (<a href="http://darkonyx.web-anatomy.com/en/Download" target="_blank">you can grab player here</a>).
-					 <br>2. Grab DarkOnyx absolute directory path from Main Settings (DarkOnyx Control Panel) 
-					 <br>3. Paste DarkOnyx Directory Path to the input above (DarkOnyx Player Location)
-					 </p>
-		  
-					</div>
-                </div>
-              </div>
-            </div>
-	</div>	
+				</div>
+			</div>
+		</div>	
+		
+		
+
 	 <div id="poststuff">
               <div id="post-body">
                 <div id="post-body-content">
-                  <div class="stuffbox">
+                 <div class="stuffbox" style="float:left">
                     <h3 class="hndle"><span>Licensing</span></h3>
                     <div class="inside" style="margin: 15px;">
                      <p>This Wordpress Plugin was designed to work with all commercial and non-commercial editions of DarkOnyx Web Video Player. Feel free to grab your player from our site.</p> <p>If you are running a <strong>commercial site</strong> (displaying ads, selling stuff), please make sure to grab a proper license. With a commercial edition you will be able to modify watermark, and site info in the context menu. Web-Anatomy also provides free tech support to all its clients.</p><p>Schools and other non-profit organizations can use the Free Edition without these restrictions. DarkOnyx Free Edition is also a great opportunity to check the product before buying it first.</p>
